@@ -3,8 +3,21 @@
   <head>
     <meta charset="UTF-8">
     <title>The Scala.js Tutorial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="font/flaticon.css">
+    <style>
+        #game-canvas {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
   </head>
   <body>
+    <canvas id="game-canvas"></canvas>
     <!-- Include JavaScript dependencies -->
     <script type="text/javascript" src="./target/scala-2.11/scala-js-tutorial-jsdeps.js"></script>
     <!-- Include Scala.js compiled code -->
