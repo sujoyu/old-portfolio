@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>すじょうゆの自己PR</title>
+
+    <!-- <link rel="icon" href="favicon.ico"> -->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body class="cyan lighten-5">
+  <nav id="header" class="cyan">
+    <div class="nav-wrapper clearfix">
+      <div class="container">
+        <div id="brand" class="clearfix">
+          <figure>
+          <img id="icon" src="img/icon.png" alt="sujoyu" class="circle">
+          <figcaption>すじょうゆ</figcaption>
+          </figure>
+        </div>
+        <!-- <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a> -->
+        <ul id="navigation">
+          <li><a href="#history">略歴</a></li>
+          <li><a href="#business-skill">業務スキル</a></li>
+          <li><a href="#hobby-skill">趣味スキル</a></li>
+          <li><a href="#prod-game">趣味制作物</a></li>
+        </ul>
+        <!-- <ul class="side-nav" id="mobile-menu">
+          <li><a href="#history">経歴</a></li>
+          <li><a href="#business-skill">業務スキル</a></li>
+          <li><a href="#hobby-skill">趣味スキル</a></li>
+        </ul> -->
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12 section-wrapper">
+        <section id="history">
+          <h2 class="valign-wrapper"><span class="valign">略歴</span></h2>
+          <p>
+            　理工学部情報科学科卒、学士。<br>
+            　メガバンク系列のSIerにて、技術力強化研修プログラムに一年間参加の後、市場系システム部門に配属、事務仕事を行う。<br>
+            　一年後、国内大手動画サイトの運営企業に転職。
+            現在は、アクセス統計分析システムやバッチ処理サーバなど、社内向けシステムの設計開発保守を行っている。
+          </p>
+        </section>
+      </div>
+    </div>
+    <div class="row-spacer1 hide-on-med-and-down"></div>
+    <div class="row">
+      <div class="col l6 offset-l6 s12 section-wrapper-right">
+        <section id="business-skill">
+          <h2 class="valign-wrapper"><span class="valign">業務スキル</span></h2>
+          <dl>
+            <dt>HTML/CSS</dt><dd>: 4年(Bootstrap: 1年)</dd>
+            <dt>Java</dt><dd>: 1年(Seasar2: 半年)</dd>
+            <dt>JavaScript</dt><dd>: 3年(jQuery: 3年)</dd>
+            <dt>PHP</dt><dd>: 2年(CakePHP: 2年)</dd>
+            <dt>Scala</dt><dd>: 1年(Play: 1年)</dd>
+          </dl>
+        </section>
+      </div>
+    </div>
+    <div class="row-spacer2 hide-on-med-and-down"></div>
+    <div class="row">
+      <div class="col l6 offset-l2 s12 section-wrapper">
+        <section id="hobby-skill">
+          <h2 class="valign-wrapper"><span class="valign">業務半年未満<br>趣味スキル</span></h2>
+          <dl>
+            <dt>Java</dt><dd>: Applet 2年, Servlet</dd>
+            <dt>JavaScript</dt><dd>: Cordova, Electron, Create.js, Firefox Addon</dd>
+            <dt>Scala</dt><dd>: Scala.js</dd>
+            <dt>その他</dt><dd>: C/C++, C# (Unity), Bash, Perl, Ruby (Rails), Python</dd>
+            <dt>デザイン</dt><dd>: <br>大学文化祭ポスター採用2回</dd>
+          </dl>
+        </section>
+      </div>
+    </div>
+    <div class="row-spacer3 hide-on-med-and-down"></div>
+    <div class="row">
+      <div class="col l6 offset-l4 s12 section-wrapper">
+        <section id="hobby-skill2">
+          <h2 class="valign-wrapper"><span class="valign">趣味スキル</span></h2>
+          <dl>
+            <dt>イラスト</dt><dd>: <br>pixivルーキーランキング35位</dd>
+          </dl>
+          <script src="http://source.pixiv.net/source/embed.js" data-id="14624694_f7ea807ff8a4be05cdae67154b108a29" data-size="small" data-border="off" charset="utf-8"></script>
+        </section>
+      </div>
+    </div>
+    <div class="row-spacer4 hide-on-med-and-down"></div>
+    <div class="row">
+      <div class="col l6 s12 section-wrapper">
+        <section id="prod-game">
+          <h2 class="valign-wrapper"><span class="valign">制作物<br>ゲーム</span></h2>
+          <p>
+            　<a href="http://sujoyu.github.io/blue-valkyries/">戦術シミュレーションゲーム Blue Valkyries</a> 。<br>
+            　プログラムと画像素材をすべて制作。製作期間一ヶ月ほど。<br>
+            　Scala.js + Create.js を使用して HTML5 Canvas に描画。
+            敵AIはA*アルゴリズムにより地形コストを考慮しており、長考となるため、
+            Web Workerを使用して思考中も描画が止まらないようにしている。
+          </p>
+        </section>
+      </div>
+      <div class="col l6 s12 section-wrapper">
+        <section id="prod-game-img">
+          <iframe src="https://drive.google.com/file/d/0B-CRZBkEiPEIWFp5Z0xoOXFROFE/preview" width="242"></iframe>
+          <a href="http://sujoyu.github.io/blue-valkyries/">Blue Valkyries</a>
+        </section>
+      </div>
+    </div>
+
+    <div class="row-spacer4 hide-on-med-and-down"></div>
+    <div class="row">
+      <div class="col l6 s12 section-wrapper">
+        <section id="prod-naniku">
+          <h2 class="valign-wrapper"><span class="valign">制作物<br>なにくう</span></h2>
+          <p>
+            　<a href="http://sujoyu.github.io/naniku/">近所でなに食べるか適当に決めるアプリ「なにくう」</a> 。<br>
+            　製作期間一週間ほど。<br>
+            　Google Map Script API を使用。iOS10が出た当初、タッチイベントが発火しないバグがあったが、
+            minifyされたjsを解析し、
+            <a href="http://sujoyu.hatenadiary.com/entry/2016/10/09/iOS_10_%E3%81%A7_Google_Map_Script_API_%E3%82%92%E3%83%89%E3%83%A9%E3%83%83%E3%82%B0%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84">パッチ</a>を作成。
+          </p>
+        </section>
+      </div>
+      <div class="col l6 s12 section-wrapper">
+        <section id="prod-naniku-img">
+          <a href="http://sujoyu.github.io/naniku/"><img src="img/naniku.png" height="220"></a><br>
+          <a href="http://sujoyu.github.io/naniku/">なにくう</a>
+        </section>
+      </div>
+    </div>
+
+    <div class="row-spacer4 hide-on-med-and-down"></div>
+    <div class="row">
+      <div class="col l6 s12 section-wrapper">
+        <section id="prod-okusulist">
+          <h2 class="valign-wrapper"><span class="valign">制作物<br>おくすリスト</span></h2>
+          <p>
+            　<a href="https://github.com/sujoyu/okusulist">お薬手帳スマートフォンアプリ「おくすリスト」</a> 。<br>
+            　製作期間一ヶ月ほど。<br>
+            　Android, iOSに対応。当初monacaフレームワークを使用していたが、Cordovaに移行。
+            お薬手帳QRコードの複雑な仕様をコードに落とし込んだ。
+          </p>
+        </section>
+      </div>
+      <div class="col l6 s12 section-wrapper">
+        <section id="prod-okusulist-img">
+          <a href="https://github.com/sujoyu/okusulist"><img src="img/okusulist.png" height="220"></a><br>
+          <a href="https://github.com/sujoyu/okusulist">おくすリスト</a>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer cyan">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contact</h5>
+          <p>
+            <span id="contact" class="grey-text text-lighten-3">decoding...</span>
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="http://sujoyu.hatenadiary.com/">はてなブログ</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://github.com/sujoyu">GitHub</a></li>
+            <li><a class="grey-text text-lighten-3" href="http://www.pixiv.net/member.php?id=328870">pixiv</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://twitter.com/sutsurumu">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright cyan darken-1">
+      <div class="container">
+      © 2016 Copyright すじょうゆ
+      </div>
+    </div>
+  </footer>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>
