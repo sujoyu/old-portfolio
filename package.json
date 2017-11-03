@@ -1,0 +1,27 @@
+{
+  "name": "sujoyu.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujoyu/sujoyu.github.io.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/sujoyu/sujoyu.github.io/issues"
+  },
+  "homepage": "https://github.com/sujoyu/sujoyu.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.5",
+    "@babel/preset-env": "^7.0.0-beta.5",
+    "babel-loader": "^8.0.0-beta.0",
+    "easeljs": "^1.0.2",
+    "script-loader": "^0.7.2",
+    "webpack": "^3.8.1"
+  }
+}
