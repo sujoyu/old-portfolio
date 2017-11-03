@@ -127,7 +127,7 @@ var _default = function _default(document, window, id) {
       this.second = 0.7;
       this.elapsed = 0;
       this.shape = new createJs.Shape();
-      this.shape.graphics.beginStroke('gray').drawEllipse(0, 0, this.maxSize, this.maxSize);
+      this.shape.graphics.beginStroke('#00bcd4').drawEllipse(0, 0, this.maxSize, this.maxSize);
       this.shape.x = x;
       this.shape.y = y;
       this.shape.regX = this.maxSize / 2;
@@ -181,7 +181,7 @@ var _default = function _default(document, window, id) {
       this.alphaDelta = alphaDelta;
       this.ugougo = ugougo;
       this.shape = new createJs.Shape();
-      this.shape.graphics.beginFill('#dddddd').drawEllipse(0, 0, this.size, this.size);
+      this.shape.graphics.beginFill('#80deea').drawEllipse(0, 0, this.size, this.size);
       this.shape.x = x;
       this.shape.y = y;
       this.shape.regX = this.size / 2;
@@ -240,7 +240,7 @@ var _default = function _default(document, window, id) {
   });
   canvas.setAttribute('id', 'bodyCanvas');
   var stage = new createJs.StageGL(canvas);
-  stage.setClearColor('#FFFFFF');
+  stage.setClearColor('#e0f7fa');
   document.getElementById(id).appendChild(canvas);
   var hitArea = new createJs.Shape();
   hitArea.graphics.beginFill('black').drawRect(0, 0, 1, 1);
