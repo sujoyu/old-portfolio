@@ -71,6 +71,10 @@ footer {
 	margin-bottom: 30px;
 }
 
+.col-spacer1 {
+	margin-right: -100px;
+}
+
 .pixiv-embed-title, .pixiv-embed-meta {
 	display: none;
 }

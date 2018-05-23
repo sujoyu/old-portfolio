@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	$('#navigation').find('a').click(function() {
 		var id = $(this).attr('href');
-		console.log($(id).offset().top)
 		$('body').animate({scrollTop:$(id).find('h2').offset().top});
 	});
 
